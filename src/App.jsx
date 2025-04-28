@@ -1,14 +1,15 @@
-import './App.css'
+// src/App.jsx
+import React from 'react';
+import NavBar from './components/NavBar';
+import HeroSection from './components/HeroSection';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-        <section>
-          <h1>My First React App on Vite</h1>
-        </section>
-    </>
-  )
-}
+    <div>
+      <NavBar />
+      <HeroSection />
+    </div>
+  );
+};
 
-export default App
+export default App;
